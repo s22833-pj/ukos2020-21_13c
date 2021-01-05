@@ -19,3 +19,9 @@
 
 21.11.2020
 Pamiętnik z tego dnia znajduje się w folderze cw3/zajecia3
+
+05.12.2020
+Powtórzyłem materiał potrzebny do zaliczenia kolokwium na następnym zjeździe. Ponadto wykonałem zadania powtórzeniowe, które znajdują się w pliku cw4.
+
+19.12.2020
+Zaliczyłem kolokwium. Ponadto dowiedziałem się na temat edytorów programistycznych. Wykonałem także zadanie z szuflandii, które znajduje się w pliku cw5.

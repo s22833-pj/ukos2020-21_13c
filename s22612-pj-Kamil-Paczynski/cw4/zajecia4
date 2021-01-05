@@ -1,0 +1,36 @@
+05.12.2020
+Zadanie 1.
+Ścieżka względna : cd ../../..
+cd /kot/ma/ale
+Scieżka bezwzględna : cd tmp/ukos/kot/ma/ale
+
+Zadanie 2.
+mkdir -p tmp/ukos/kot/ma/ale/jan/kowalski
+
+Zadanie 3.
+cd ../../..
+mv kot/ma/ale ala/i
+
+Zadanie 4
+alft+f2
+xkill
+
+Zadanie 5.
+ls -a | grep^al
+
+Zadanie 6
+chmod 754 ala
+chmod a+r, g+rx, o+rwx ala
+
+Zadanie 7.
+ls -a > plik.txt
+
+Zadanie 8.
+straciłem uprawnienia do zapisu
+
+Zadanie 9.
+Tab
+
+
+Zadanie 10.
+nazwa &
