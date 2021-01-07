@@ -1,0 +1,5 @@
+a)
+po wykonaniu operacji z zakończeniem ich - Ctrl + C plik pozostaje taki jak przed próbą dokonania zmian
+
+b)
+po wykonaniu operacji z zakończeniem ich - Ctrl + D do pliku zostaje zapisana próba dokonania zaminy

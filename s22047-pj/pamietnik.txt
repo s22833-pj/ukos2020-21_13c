@@ -1,0 +1,111 @@
+03.11.2020
+Temat: Linux - wstęp do konsoli
+Nauczyłem się:
+- przechodzenia między katalogami
+- używania ścieżki względnej i bezwzględnej do folderów
+- tworzenia folderów
+- tworzenia plików
+- usuwania folderów
+- usuwania plików
+- wyświetlania zawartości folderu
+_________________________________________________________
+_________________________________________________________
+
+13.11.2020
+Temat: 
+Nauczyłem się:
+- nadawać i odbierać uprawnienia użytkownikom przy pomocy
+u - user
+g - group
+o - others
+
+r - read
+w - write
+x - exe
+
+u+ - dodaj uprawnienie
+u- - zabierz uprawnienie
+      
+      rwe
+0 - 000 
+1 - 001 
+2 - 010 
+3 - 011 
+4 - 100 
+5 - 101 
+6 - 110 
+7 - 111
+
+- łączyć się przez ssh w Linux do szuflandii - sNumerIndexu@szuflandia.pjwstk.edu.pl
+- dowiedziałem się o możliwości usunięcia sobie uprawnień do plików/folderów i co w tedy robić - przejść do folderu, w którym znajduje się folder z usuniętymi uprawnieniami
+
+- poznałem do czego służą znaki 
+'>' - nadpisanie zawartości we wskazanym pliku
+'>>' - dopisanie na koniec wskazanego pliku
+'f' - wyświetlanie w trubie 'teraz' zmian wprowadzanych przez osoby trzecie
+
+- pisanie i wyświetlanie strony HTML  w przeglądarce
+
+- poznanie   komendy "usmak" pozwalającej na zmiany uprawnień do plików/katalogów (stanardowy "umask" - 022)
+
+_________________________________________________________
+_________________________________________________________
+27.11.2020
+Temat: Procesy i strumienie
+
+poznane/użyte komendy i do czego służą:
+chgrp - zmiana grupy pliku
+newgrp - zmiana głównej grupy użytkownika
+
+ls -a
+1______________________________
+ls - wyświtelenie plików/katalogów w danym katalogu
+-a - wyśiwetlenie również plików zaczynających się na "."
+
+ls -a | grep D
+| grep D wyświetlenie wszystkich plików/folderów zaczynających się na "D"
+
+ls -a | grep D > ListaPlikowZLiterkaD.txt
+> - przekierowanie rezultatu do wskazanego pliku (nadpisywanie)
+
+ps - wyświetlenie aktualnych porcesów
+
+ps -a
+-a - wyświetlenie procesów wszystkich użytkowników
+
+ps x
+x - wyświetlenie wszystkich procesów nie wykonanych przez terminal
+
+ps u
+u - wyświetlnie dodatkowej kolumny z informacją o użytkowniku do, którego przynależy dany proces
+
+ps aux
+aux - 
+
+ps aux | grep "ubuntu" - filtrowanie wyników z wyświetleniem tych któ©e mają słowo "ubuntu"
+ps aux | grep "bash"
+ps aux | grep "root"
+/
+ps -U root -u root
+ps -U bash -u bash
+
+2___________________________
+Tutaj, do puki edtor tesktowy nie jest zapisany niegdzie na dysku (odtwaorzony poraz pierwszy) nie wiem jak znaleźć ten proces. Inna sytuacja ma się w przypadku zapisanego raz pliku txt. W takim przypadku korzystam z komendy 
+ps x | grep "nazwa_pliku" -type -f
+
+kill PID_number
+3___________________________
+a)
+po wykonaniu operacji z zakończeniem ich - Ctrl + C plik pozostaje taki jak przed próbą dokonania zmian
+
+b)
+po wykonaniu operacji z zakończeniem ich - Ctrl + D do pliku zostaje zapisana próba dokonania zaminy
+4___________________________
+Ctrl+Z - przeniesienie procesu do działania w tle
+bg - przywrócenie procesu do "pełnego" działania
+fg - nadanie priorytetu zadaniu (dostępne komendy takie jak C^Z)
+nazwa_pliku & - odtworzenie procesu w tle
+jobs - podgląd procesów działających w tle
+
+
+
