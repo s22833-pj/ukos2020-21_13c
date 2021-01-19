@@ -1,0 +1,17 @@
+19.12.2020
+
+Utworzyłem plik o nazwie program.c za pomocą touch.
+Przepisując kod w geany zauważyłem, że koloruje on odpowiednio kod.
+Ponadto otwierając { i wciskając enter, program sam robi odpowiednie wcięcia w tekście.
+Wpisując printf, już po kilku literach program sam podpowiada mi, co chcę wpisać.
+Narzędzie diff jako polecenie "diff program.c nowy.c" porównuje dwa pliki. Efekt jest następujący:
+
+10,12c10,12
+< 		printf("|                    |\n");
+< 		printf("|     Liczę: %d      |\n", i);
+< 		printf("|                    |\n");
+---
+> 		printf("#                    #\n");
+> 		printf("#     Liczę: %d      #\n", i);
+> 		printf("#                    #\n");
+
