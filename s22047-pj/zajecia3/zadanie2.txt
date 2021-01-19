@@ -1,0 +1,4 @@
+Tutaj, do puki edtor tesktowy nie jest zapisany niegdzie na dysku (odtwaorzony poraz pierwszy) nie wiem jak znaleźć ten proces. Inna sytuacja ma się w przypadku zapisanego raz pliku txt. W takim przypadku korzystam z komendy 
+ps x | grep "nazwa_pliku" -type -f
+
+kill PID_number

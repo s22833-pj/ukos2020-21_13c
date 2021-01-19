@@ -1,0 +1,5 @@
+Ctrl+Z - przeniesienie procesu do działania w tle
+bg - przywrócenie procesu do "pełnego" działania
+fg - nadanie priorytetu zadaniu (dostępne komendy takie jak C^Z)
+nazwa_pliku & - odtworzenie procesu w tle
+jobs - podgląd procesów działających w tle
