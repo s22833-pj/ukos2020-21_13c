@@ -1,0 +1,9 @@
+08.11.2020
+Nauczyłem się:
+- zmiany uprawnien katalogu
+- opisy praw dostepu:
+r (prawo do odczytu)
+w (prawo do zapisu)
+x (prawo do wykonywania)
+- dowiedzialem sie o dodawaniu i odbieraniu praw dostepu
+Marceli Gosztyła
