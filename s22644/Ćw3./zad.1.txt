@@ -1,0 +1,2 @@
+1. ps aux | grep bash
+2. ps u -U root

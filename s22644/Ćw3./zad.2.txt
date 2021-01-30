@@ -1,0 +1,2 @@
+1. ps aux | grep gedit
+2. kill 1062
