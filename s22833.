@@ -25,3 +25,20 @@ Podstawiwe informacje zwiaznae z terminalem
 Wyjaśnienie ścieżki względnej oraz bezwzględnej - wyjaśnienie różnicy
 Poruszanie się po katalogach
 Przedstawienie zadania do wykoniania(dokładny opis w notatkach - zadania)*****
+
+03 Procesy i strumienie
+21/11/2020 8:45
+
+
+Nauczyłam się wyszukiwania i operowania na procesach w cmd oraz 
+odpalania programów w tle, przerzucania ich na pierwszy plan i
+tworzenia plików tekstowych i zamykania ich z zapisem oraz bez. 
+-----
+Na trzecich zajeciach nauczelem sie:
+-do czego sluzy polecenie grep
+-wyszukiwania danych procesow poleceniem ps
+-dzieki PID czyli identyfikatorowi procesu moge odwolywac
+sie do danego procesu i dzialac na nim za pomoca polecen
+-polecenia kill
+-dwóch skrótów klawiszowych ctrl+c i ctrl+z i ich dzialanie
+-polecenia bg i fg, czyli działanie na procesach
