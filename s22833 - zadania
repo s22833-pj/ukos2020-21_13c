@@ -1,0 +1,105 @@
+01 Linux - wstęp do konsoli
+17/10/2020[8:45]
+
+
+Zadanie 1:
+2. ls
+3. cd Desktop
+4.
+5. pwd
+6. ls
+7. wyswietlają sie te same pliki
+8. ls / home
+9. cd -> Pictures
+10. pwd
+11. Bez zmian
+12. cd / home
+13. Nie otrzymałem dostępu
+14. Terminal full screen
+
+  
+mkdir ukos
+cd ukos
+mkdir katalog
+mkdir klamka
+cd katalog
+mkdir katalog2
+mkdir katalog3
+
+cd
+cd klamka
+touch zajecia2.txt
+touch zajecia2.log
+touch inny.txt
+touch nowy.txt
+
+cd
+mkdir -p to/jest/dluga/nazwa
+
+cd to/jest/dluga/nazwa
+touch dane.txt
+
+cd
+cd ukos
+cd klamka
+rm *.txt
+
+cd ..
+rmdir katalog/katalog2
+
+rm -f klamka
+
+----------------------------------
+
+02 Uprawnienia dostępu
+7/11/2020 8:45
+
+
+Prawa dostepu (u-user,g-group,o-other)
+prawo do odzytu r:4
+prawo do zapisu w:2
+prawo do wykonania x:1
+r+w+x = 7
+uzycie polecenia:
+echo "tresc" > plik - plik zostaje wyczyszczony i zapisany trescia ponownie.
+echo "tresc" >> plik - do pliku dołączana jest następna linia treści.
+tail -f plik - pozwala na zapisywanie informacji w czasie rzeczywistym. Mianowicie, pojawia nam sie pole do wpisywania linijek tekstu. Aby wyłączyć -> ctrl+z
+
+-kat1
+kat2
+kat3 (chmod 000)
+kat4 
+
+
+03 Procesy i strumienie
+21/11/2020 8:45
+
+
+)__
+ls -a -> 6
+ls -a | grep D -> nic mi nie wypisało bo nie mam nic na literke D
+ls -a | grep D > ListaPlikowZLiterkaD.txt -> utworzyl sie plik, z tekstem który jest nazwa pliku.
+| -> łączy procesy ze sobą > -> tworzy plik i przekierowuje zawartosc
+
+zadanie nr.1
+1.ps -> pokazuje liste programow aktualnie uruchomionych w systemie
+2.ps -a -> pokazuje wszystkie procesy poza shellem
+3.ps x -> pokazuje wszystkie procesy których jestem właścicielem
+4.ps aux -> a-pokazuje procesy wszystkich użytkowników, u-pokazuje procesy użytkownika/właściciela,
+x-pokazuje procesy nie przypisane do terminalu
+X
+1. ps -e
+2. ps -U root -u root u
+
+zadanie nr. 2
+kill na "zabicie" notatnika dziala poleceniem kill + PID notatnika, 
+killall shell - nie znaleziono procesu
+kill nie działa dla dowolnego procesu
+
+zadanie nr.3
+1,2. ten skrót ctrl+c wychodzi z programu
+1,2,3,4. plik wynik1.txt powstał, tekst wpisany nie zostal zapisany
+1,2,3,4. tekst zapisany
+
+zadania.4
+1,2,3. po ctrl+z nie moglem w notatniku nic pisac, ale po komendzie brak mozliwości
