@@ -1,0 +1,14 @@
+Zadanie 1:
+2. ls
+3. cd Desktop
+4.
+5. pwd
+6. ls
+7. wyswietlają sie te same pliki
+8. ls / home
+9. cd -> Pictures
+10. pwd
+11. Bez zmian
+12. cd / home
+13. Nie otrzymałem dostępu
+14. Terminal full screen

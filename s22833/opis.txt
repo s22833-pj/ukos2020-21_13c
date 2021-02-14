@@ -1,0 +1,29 @@
+1 Wykład - wprowadzenie/przygotowanie
+16/10/2020 [18:00]
+
+01 Linux - wstęp do konsoli
+17/10/2020[8:45]
+
+
+02 Uprawnienia dostępu
+7/11/2020 8:45
+
+03 Procesy i strumienie
+21/11/2020 8:45
+
+2 Wykład 2
+04/12/2020 18:00
+
+
+04 Kolokwium - powtórzenie
+05/12/2020 8:45
+
+05 05 Kolokwium
+19/12/2020 8:45
+----
+
+06 Wprowadzenie do Powershell 
+16/01/2021 8:45
+
+07 Wprowadzenie do Powershell - ćwiczenia
+30/01/2021 8:45

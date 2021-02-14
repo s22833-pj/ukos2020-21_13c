@@ -1,0 +1,18 @@
+02 Uprawnienia dostępu
+7/11/2020 8:45
+
+
+Prawa dostepu (u-user,g-group,o-other)
+prawo do odzytu r:4
+prawo do zapisu w:2
+prawo do wykonania x:1
+r+w+x = 7
+uzycie polecenia:
+echo "tresc" > plik - plik zostaje wyczyszczony i zapisany trescia ponownie.
+echo "tresc" >> plik - do pliku dołączana jest następna linia treści.
+tail -f plik - pozwala na zapisywanie informacji w czasie rzeczywistym. Mianowicie, pojawia nam sie pole do wpisywania linijek tekstu. Aby wyłączyć -> ctrl+z
+
+-kat1
+kat2
+kat3 (chmod 000)
+kat4 

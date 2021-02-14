@@ -1,0 +1,74 @@
+16/10/2020
+Otrzymaliśmy materiały, oraz zostaliśmy wskazówki/instrukcje związane z pobraniem oraz przygotowaniem maszyny wirtualnej.
+Połączyliśmy się z serwerem uczelnianym za pomoca naszych nowo założonych kont. Pobraliśmy PuTTY, Skonfugurowaliśmy oraz zalogowaliśmy się.
+Teoria odnośnie "bash'u", Konsola, powłoka, shell, terminal,
+Polecenie"man"podręcznik pomocy do poleceń, obsługa podręcznika pomocy
+Pomoc przez argumenty
+Otrzymaliśmy Listę poleceń do nauki (notatki w pliku - notatki do zajęć)*****
+Krótka treściwa teoria związana z edytorami tekstowymi i programistycznymi.
+Opisanie Git'a, czym jest, do czego służy.
+Został przedstawiony nam przykład wykonania jednego z zadań na"tutorialu do git'a"
+Opisane zostały skrypty, do czego będa nam potrzebne oraz jak abrdzo ułatwiają nam życie.
+Przedstawione zostały przykłady skryptu, oraz uruchamianie.
+Liczenie bitów - przedstawienie użycia, (dokładny opis w notatkach w pliku)*****
+Sourceowanie skryptów - zastosowanie w konkretnych celach, takich jak doładowanei funkcji, ustawienia zmiennych czy zainicjowania czegoś(nie słuzy do uruchamiania skryptów)
+Konfiguracja powłoki, 
+Otworzenie oraz przedstawienie jak wygląda Maszyna(Ubuntu)
+Logowanie się - nawiązanie połaczenia do Szuflandii
+vim-edytor, przedstawienie
+
+01 Linux - wstęp do konsoli
+17/10/2020[8:45]
+Pobieranie VirtualBox'a, instrukcja instalacji, konfigurowania.
+Katalogi, co to quota,
+Podstawiwe informacje zwiaznae z terminalem
+Wyjaśnienie ścieżki względnej oraz bezwzględnej - wyjaśnienie różnicy
+Poruszanie się po katalogach
+Przedstawienie zadania do wykoniania(dokładny opis w notatkach - zadania)*****
+
+
+02 Uprawnienia dostępu
+7/11/2020 8:45
+Poznanie nowych komend w terminalu,
+Przedstawienie oraz wykorzystywanie opisu praw dostępu, gdzie w plikach r(prawo do odczytu), w(prawo do zapisu), x (prawo do wykonywania), 
+/ katalogi posiadają r (prawo do odczytu), w(prawo do zmiany zawartości), x(prawo do wejścia w dany katalog),
+komendy dotyczące nadawania, jak i odbierania praw dostępu****
+Przedstawienie oraz opisanie tabeli z interpretacją kodów ósemkowych,
+
+03 Procesy i strumienie
+21/11/2020 8:45
+
+
+Nauczyłam się wyszukiwania i operowania na procesach w cmd oraz 
+odpalania programów w tle, przerzucania ich na pierwszy plan i
+tworzenia plików tekstowych i zamykania ich z zapisem oraz bez. 
+-do czego sluzy polecenie grep
+-wyszukiwania danych procesow poleceniem ps
+-dzieki PID czyli identyfikatorowi procesu moge odwolywac
+sie do danego procesu i dzialac na nim za pomoca polecen
+-polecenia kill
+-dwóch skrótów klawiszowych ctrl+c i ctrl+z i ich dzialanie
+-polecenia bg i fg, czyli działanie na procesach
+
+
+04 Kolokwium - powtórzenie
+Na Ćwiczeniach wykonywlaliśmy zadania ze strony dr.Puźniakowskiego dotyczące powtórzenia z Linuxa.
+Przeanalizowaliśmy strumienie(operatory)
+Przeanalizowaliśmy zadania do wykonania, powracając do poprzednich wykładów.
+
+
+
+
+06 Wprowadzenie do Powershell 
+Mieliśmy wstęp do Powershell. Dostaliśmy listę zadań do wykonania.
+Został przedstawiony program, oraz poruszanie się po nim.
+Otrzymaliśmy zadanie do wykonania, które dokładnie zostało opisane, przeanalizowane.
+
+
+
+
+07 Wprowadzenie do Powershell - ćwiczenia
+Kontynuacja wykonywania zadaia z poprzednich ćwiczeń
+
+
+08 Wprowadzenie do Powershell - ćwiczenia - kontynuacja
